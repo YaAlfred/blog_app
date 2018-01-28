@@ -1,2 +1,3 @@
 # blog_app
-A simple offline-first blog-application
+A simple, node js, offline-first blog-application
+
