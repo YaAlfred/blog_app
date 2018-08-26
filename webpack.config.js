@@ -22,5 +22,9 @@ module.exports = {
   plugins: [
     new webpack.IgnorePlugin(/\.(css|less)$/)
   ],
-  devtool: 'sourcemap'
+  devtool: 'sourcemap',
+  devServer: {
+    index: 'index.html',
+    port: 8000
+  }
 }

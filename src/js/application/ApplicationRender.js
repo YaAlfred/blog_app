@@ -14,7 +14,20 @@ class ApplicationRender {
     }
 
     render() {
+        this._registerSw().then(function(reg) {
+            // регистрация сработала
+            console.log('Registration succeeded. Scope is ' + reg.scope);
+        }).catch(function(error) {
+            // регистрация прошла неудачно
+            console.log('Registration failed with ' + error);
+        });;
         console.log('items loaded');
+    }
+
+    _registerSw () {
+        if ('serviceWorker' in navigator) {
+            return navigator.serviceWorker.register('/sw/sw.js', { scope: '/sw/' });
+        };
     }
 }
 
