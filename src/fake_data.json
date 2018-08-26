@@ -1,0 +1,24 @@
+{
+    "blogPosts": [
+        {
+            "title" : "first blog post",
+            "pubData" : "23.08.2018 12:40",
+            "body" : "first blog post body, this is a long-long boring text"
+        },
+        {
+            "title" : "second blog post",
+            "pubData" : "24.08.2018 14:40",
+            "body" : "first blog post body, this is a long-long boring text"
+        },
+        {
+            "title" : "third blog post",
+            "pubData" : "25.08.2018 14:00",
+            "body" : "first blog post body, this is a long-long boring text"
+        },
+        {
+            "title" : "forth blog post",
+            "pubData" : "26.08.2018 16:40",
+            "body" : "first blog post body, this is a long-long boring text"
+        }
+    ]
+}
