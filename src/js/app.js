@@ -1,10 +1,9 @@
-var express = require('express');
-var app = express();
+import ApplicationRender from './application/ApplicationRender';
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
+document.addEventListener('DOMContentLoaded', function(){ 
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+  const app = new ApplicationRender();
+  
+  app.render();
+
 });

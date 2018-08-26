@@ -3,12 +3,14 @@
     "webpack": "3.10.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start-old": "node server.js",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "name": "blog_app",
   "description": "A simple, node js, offline-first blog-application",
   "version": "0.0.1",
-  "main": "server.js",
+  "main": "index.html",
   "dependencies": {
     "express": "4.16.2",
     "html": "1.0.0"
